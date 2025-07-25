@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Pop up</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
 </head>
 <body>
     <a class="button" onclick="toogleNews()">Subscribe</a>
+
     <div class="hidden" id="newsletter">
-        <h2>Join our Exclusive news Letter
-        </h2>
+        <h2>Join our Exclusive News Letter</h2>
         <p>Follow my other courses</p>
 
         <div class="box">
-            <input type="email" placeholder="Enter a Email">
+            <input type="email" placeholder="Enter a Email" />
         </div>
         <div class="box">
-            <button type="submit">Signup</button>
+            <button type="submit" onclick="handleSignup()">Signup</button>
         </div>
-    <a class="close" onclick="toogleNews()">
-        <i class="fa fa-times fa-2x" aria-hidden="true"></i></a>
+
+        <a class="close" onclick="toogleNews()">
+            <i class="fa fa-times fa-2x" aria-hidden="true"></i>
+        </a>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
-<script src="script.js"></script>
