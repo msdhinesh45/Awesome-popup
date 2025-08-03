@@ -4,7 +4,7 @@ This is a simple popup newsletter subscription form created using HTML, CSS, and
 
 ## 🚀 Live Demo
 
-[Click here to view the live project](https://msdhinesh45.github.io/Awesome-popup/)
+[Click here to view the live project](https://alert-popup.netlify.app/)
 
 
 ## 📸 Output Screenshots
